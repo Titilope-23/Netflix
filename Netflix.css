@@ -1,0 +1,91 @@
+.img{
+    background-image: url(netflix-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.img{
+    background-color: black;
+    height: 90vh;
+}
+.label{
+    margin-left: 480px;
+    margin-top: -500px;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.email{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
+.black{
+    background-color: black;
+    margin-top: 19%;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+}
+.blackagain{
+    background-color: black;
+    margin-top: 0.5%;
+    height: 500px;
+    color: white;
+    font-size: 20px;  
+}
+.border{
+    border: 1px solid whitesmoke;
+    height: 15%;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 18%;
+    margin-top: -2%;
+    z-index: 1%;
+    background-image: url(boxshot.png);
+    background-repeat: no-repeat;
+    height: 10%;
+}
+.blackagainn{
+    margin-left: 60%;
+    margin-top: -25%;
+    font-size: 25px;
+}
+.blackk{
+    background-color: black;
+    margin-top: -1.8%;
+    height: 500px;
+    color: white;
+    font-size: 25px;
+}
+.blackk h1{
+    margin-left: 20%;
+    padding-top: 10%;
+}
+.blackk p{
+    margin-left: 20%;
+}
+.kid{
+    background-color: black;
+    margin-top: 0.5%;
+    height: 500px;
+    color: white;
+    font-size: 25px;
+}
+.kid h1{
+    margin-left: 60%;
+    margin-top: -25%;
+}
+.kid p{
+    margin-left: 60%;
+}
+
+.all{
+    background-color: #232323;
+}
