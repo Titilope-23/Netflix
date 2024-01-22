@@ -26,12 +26,29 @@
     height: 40px;
     font-size: 20px;
 }
+
 .black{
     background-color: black;
     margin-top: 19%;
     height: 500px;
     color: white;
     font-size: 20px;
+}
+.black h1{
+    margin-left: 20%;
+     padding-top: 10%;
+}
+.black p{
+    margin-left: 20%;
+}
+
+.video-1{
+    margin-top: -18%;
+    margin-left: 51%;
+}
+.video-2{
+    margin-top: -54%;
+    margin-left: 10%;
 }
 .blackagain{
     background-color: black;
@@ -40,18 +57,29 @@
     color: white;
     font-size: 20px;  
 }
+.mobile{
+    margin-left: 10%;
+    height: 50vh;
+}
 .border{
     border: 1px solid whitesmoke;
-    height: 15%;
+    height: 600vh;
     width: 20%;
     border-radius: 10px;
     margin-left: 18%;
     margin-top: -2%;
-    z-index: 1%;
     background-image: url(boxshot.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-position: 0%;
     height: 10%;
 }
+.border span{
+    margin-left: 15%;
+}
+
+
 .blackagainn{
     margin-left: 60%;
     margin-top: -25%;
@@ -71,12 +99,17 @@
 .blackk p{
     margin-left: 20%;
 }
+
+
 .kid{
     background-color: black;
     margin-top: 0.5%;
     height: 500px;
     color: white;
     font-size: 25px;
+}
+.kid img{
+    margin-left: 7%;
 }
 .kid h1{
     margin-left: 60%;
@@ -118,4 +151,142 @@ margin-left: 12%;
 
 .all{
     background-color: #232323;
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+    .img{
+        background-image: url(netflix-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+    .label{
+        margin-left: 100px;
+        margin-top: -400px;
+        color: white;
+        font-size: 20px;
+    }
+    .button{
+       display: block;
+    }
+    .email{
+        display: block;
+    }
+
+    .black{
+        margin-top: 18%;
+        height: 95vh;
+    }
+    .black h1{
+        text-align: center;
+    }
+    .black p{
+        text-align: center;
+    }
+    .video-1{
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 2vh;
+        width: 10%;
+    }
+    .video-2{
+        margin-top: -780%;
+        margin-left: 100%;
+        height: 2vh;
+        width: 1%;
+    }
+
+    .mobile{
+        margin-left: 5%;
+        height: 40vh;
+    }
+    .border{
+        height: 700vh;
+        width: 40%;
+        border-radius: 10px;
+        margin-left: 18%;
+        margin-top: -15%;
+        background-image: url(boxshot.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        background-position: 0%;
+        height: 10%;
+    }
+    .border span{
+        margin-left: 15%;
+    }
+    .blackagainn{
+        margin-left: 10%;
+        margin-top: -5%;
+        font-size: 25px;
+    }
+
+    .blackk{
+        background-color: black;
+        margin-top: -2%;
+        height: 300px;
+        color: white;
+        font-size: 25px;
+    }
+    .blackk h1{
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+    .blackk p{
+        margin-left: 10%;
+    }
+
+    .kid{
+        background-color: black;
+        margin-top: 0.5%;
+        height: 500px;
+        color: white;
+        font-size: 25px;
+    }
+    .kid img{
+        margin-left: 7%;
+        height: 45vh;
+    }
+    .kid h1{
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+    .kid p{
+        margin-left: 10%;
+    }
+
+    .faq{
+        height: 900px;
+        color: white;
+        font-size: 25px;
+        margin-top: -1.5%;
+    }
+    .faq h2{
+    text-align: center;
+    font-size: 45px;
+    }
+    .faq button{
+    height: 15vh;
+    width: 50%;
+    background-color: #2d2d2d;
+    color: white;
+    align-items: baseline;
+    padding-right: 60%;
+    margin-left: 12%;
+    }
+    .faq span{
+        font-size: 12px;
+    }
+    .faq p{
+        text-align: center;
+    }
+    .lastmail{
+        margin-left:30% ;
+    }
+    
 }
