@@ -87,7 +87,7 @@
 }
 .faq{
     background-color: black;
-    height: 500px;
+    height: 800px;
     color: white;
     font-size: 25px;
     margin-top: -1.5%;
@@ -104,8 +104,9 @@ color: white;
 align-items: baseline;
 padding-right: 60%;
 margin-left: 12%;
-font-size: 17px;
-font-weight: 15px;
+}
+.faq span{
+    font-size: 17px;
 }
 
 .all{
